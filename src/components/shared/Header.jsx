@@ -80,11 +80,9 @@ function Header() {
                         >
                             <MenuItem className='block rounded-lg py-2 px-3 transition hover:bg-gray-50  
                          hover:text-black text-gray-500 hover:no-underline'>
-                                {({active})=>(
                                     <button onClick={()=>navigate('/profile')}>
                                         Your profile
                                     </button>
-                                )}
                             </MenuItem>
                             <MenuItem className='block rounded-lg py-2 px-3 transition hover:bg-gray-50 
                          hover:text-black text-gray-500 hover:no-underline'>
