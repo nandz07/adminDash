@@ -10,9 +10,9 @@ function Layout() {
 
         {/* <div className='bg-sky-200'>Header</div> */}
         <Sidebar />
-        <div className='flex-1'>
+        <div className='flex-1 flex flex-col'>
           <Header />
-          <div className='p-4'><Routers /></div>
+          <div className='p-4 overflow-y-auto flex-1'><Routers /></div>
 
         </div>
         {/* <div>Footer</div> */}
